@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#020079</color>
+    <color name="colorPrimaryDark">#05014a</color>
+    <color name="colorAccent">#0021f3</color>
+
+    <!-- customized listView colors -->
+    <color name="red2">#ff2929</color>
+    <color name="red">#ff0000</color>
+
+    <!-- font colors -->
+    <color name="font">#ffffff</color>
+</resources>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp">
+
+    <TextView
+        android:id="@+id/section"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAllCaps="true"
+        android:textColor="@color/font"
+        android:textSize="14sp"
+        tools:text="@string/section" />
+
+    <TextView
+        android:id="@+id/category"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:textColor="@color/font"
+        tools:text="@string/category" />
+
+    <TextView
+        android:id="@+id/newsTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/section"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:textColor="@color/font"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        tools:text="@string/news" />
+
+    <TextView
+        android:id="@+id/publicationDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsTitle"
+        android:layout_alignEnd="@+id/newsTitle"
+        android:layout_alignRight="@+id/newsTitle"
+        android:textColor="@color/font"
+        tools:text="@string/publication_date" />
+
+    <TextView
+        android:id="@+id/author"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/newsTitle"
+        android:layout_alignStart="@+id/newsTitle"
+        android:layout_alignLeft="@+id/newsTitle"
+        android:ellipsize="end"
+        android:maxLines="2"
+        android:textColor="@color/font"
+        tools:text="@string/author" />
+
+    <TextView
+        android:id="@+id/publicationTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/publicationDate"
+        android:layout_alignEnd="@+id/publicationDate"
+        android:layout_alignRight="@+id/publicationDate"
+        android:textColor="@color/font"
+        tools:text="@string/publication_time" />
+
+</RelativeLayout>
